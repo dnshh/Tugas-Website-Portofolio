@@ -1,31 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Profile - Danishwara</title>
 
     <link rel="stylesheet" href="porto.css">
 
 </head>
 
-<body> 
+<body>
     <header>
         <h1 class="title">Danishwara Azka Pranaja R.</h1>
-        <p class="subtitle">Selamat datang di halaman profil saya</p>
+        <p class="subtitle" id="salam">Selamat datang di halaman profil saya</p>
         <nav>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#portofolio">Portofolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <br>
-    <br>
-    <br>
-    <section id="about">
+    <section class="about">
         <div class="isi">
-            <img class="profile-img" src="foto bg merah.png" alt="Foto Profil" width="200"> 
+            <img class="profile-img" src="foto bg merah.png" alt="Foto Profil" width="200">
             <div class="teks-about">
                 <h2>About Me</h2>
                 <p>Haloo, Saya <span class="nama">Danishwara Azka Pranaja R.</span>, mahasiswa Program Studi Teknologi Informasi Universitas Jember. Saya memiliki ketertarikan untuk mempelajari konsep serta penerapan AI melalui pengembangan proyek. Selama perkuliahan, saya telah mengembangkan dua proyek akademik menggunakan C#, WinForms, Python, dan PostgreSQL, mulai dari perancangan antarmuka pengguna, implementasi logika aplikasi, dan perancangan basis data.
@@ -33,13 +31,11 @@
             </div>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <section id="skills">
+
+    <section class="skills">
         <h2>Skills</h2>
-       <div class="Skills">
-           <article>
+        <div class="Skills">
+            <article>
                 <h3>Programming Languages</h3>
                 <p>C#, Python, Java</p>
             </article>
@@ -55,18 +51,15 @@
                 <h3>Frameworks</h3>
                 <p>WinForms, Flask</p>
             </article>
-       </div>
+        </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <section id="portofolio">
+
+    <section class="portofolio">
         <h2>Portofolio</h2>
         <div class="project-grid">
             <article>
                 <h3>Project 1</h3>
-                <p>Website Penjualan Hewan Ternak dan Hewan Qurban Berbasis Wilayah Jember.</p>
-                
+                <p>Sistem Penjualan Hewan Ternak dan Hewan Qurban Berbasis Wilayah Jember.</p>
                 <img class="project-img" src="hewan qurban.jpeg" alt="Project 1" width="300">
             </article>
             <article>
@@ -76,22 +69,38 @@
             </article>
         </div>
     </section>
-    <br>
-    <br>
-    <br>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:danishwara@gmail.com">danishwara@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/danishwara-azka-pranaja-r-b05682387/">linkedin.com/in/danishwara-azka-pranaja-r-252410102073</a></p>
-        <p>GitHub: <a href="https://github.com/danishwara">github.com/danishwara</a></p>
-    </section>
+
+    <section class="contact">
+    <h2>Contact</h2>
+    <div class="kontak-grid">
+        <article>
+            <div class="ikon">✉️</div>
+            <h3>Email</h3>
+            <p class="email">danishwara@gmail.com</p>
+            <a class="tombol-link" href="mailto:danishwara@gmail.com">Kirim Email</a>
+        </article>
+        <article>
+            <div class="ikon">💼</div>
+            <h3>LinkedIn</h3>
+            <p>Danishwara Azka Pranaja R.</p>
+            <a class="tombol-link" href="https://www.linkedin.com/in/danishwara-azka-pranaja-r-b05682387/">Buka LinkedIn</a>
+        </article>
+        <article>
+            <div class="ikon">🐱</div>
+            <h3>GitHub</h3>
+            <p>github.com/dnshh</p>
+            <a class="tombol-link" href="https://github.com/dnshh">Buka GitHub</a>
+        </article>
+    </div>
+</section>
+
+    <button type="button" class="tombol-atas" title="Kembali ke atas">&uarr;</button>
 
     <footer>
-    <p>&copy; 2026 Danishwara Azka Pranaja R. All rights reserved.</p>
+        <p>&copy; 2026 Danishwara Azka Pranaja R. All rights reserved.</p>
     </footer>
 
+    <script src="porto.js"></script>
 </body>
 
 </html>
-
-
